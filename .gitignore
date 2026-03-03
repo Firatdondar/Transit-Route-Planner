@@ -1,0 +1,11 @@
+# Derlenmiş çalıştırılabilir dosyalar ve object dosyaları
+*.exe
+*.o
+*.out
+*.app
+
+# IDE ve derleme sisteminin yarattığı klasörler
+build/
+bin/
+.vscode/
+.vs/

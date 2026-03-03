@@ -1,0 +1,6 @@
+ID,Name
+1, Central Station
+2, North Park
+3, East Mall
+4, West Campus
+5, Airport Terminal

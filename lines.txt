@@ -1,0 +1,4 @@
+LineNo,LineName,Stops
+101, City Express, 1 2 4 5
+102, Mall Shuttle, 1 3 4
+103, Airport Direct, 1 5
