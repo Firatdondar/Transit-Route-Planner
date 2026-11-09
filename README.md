@@ -16,9 +16,11 @@ A comprehensive public transportation routing and management system written in m
 This project uses CMake for the build process. Follow these steps to compile the application:
 
 ```bash
-git clone <YOUR-GITHUB-REPO-URL>
-cd <YOUR-REPO-NAME>
+git clone https://github.com/Firatdondar/public-transport-routing-system.git
+cd public-transport-routing-system
 mkdir build
 cd build
 cmake ..
 cmake --build .
+./TransportApp
+```
