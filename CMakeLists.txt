@@ -1,13 +1,20 @@
 cmake_minimum_required(VERSION 3.10)
-
-project(TransportationSystem VERSION 1.0)
+project(TransitRoutePlanner VERSION 1.0 LANGUAGES CXX)
 
 set(CMAKE_CXX_STANDARD 17)
-set(CMAKE_CXX_STANDARD_REQUIRED True)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-add_executable(TransportApp 
-    main.cpp 
-    TransportationSystem.cpp
+include_directories(include)
+
+add_executable(TransportApp
+    src/main.cpp
+    src/TransportationSystem.cpp
 )
 
-file(COPY stops.txt distances.txt lines.txt passengers.txt DESTINATION ${CMAKE_CURRENT_BINARY_DIR})
+file(COPY
+    data/stops.txt
+    data/distances.txt
+    data/lines.txt
+    data/passengers.txt
+    DESTINATION ${CMAKE_CURRENT_BINARY_DIR}
+)
